@@ -15,7 +15,7 @@ who_start = 0
 sign = 0
 
 
-class boardGui:
+class TicTocGui:
 
     def __init__(self, size):
         self.ticTocBoard = Board(size)
@@ -210,5 +210,5 @@ class boardGui:
 
 # Call main function
 if __name__ == '__main__':
-    game = boardGui(5)
+    game = TicTocGui(5)
     game.play()
